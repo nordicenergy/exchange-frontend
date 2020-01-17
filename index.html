@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A bridge for Quorum used to exchange tokens">
+  <meta name="theme-color" content="#4D4D4D">
+  <link rel="icon" href="img/favicon.png">
+  <title>Trading Bridge for Quorum</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href=".css">
+</head>
+
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/BitFinance.logo4.png" width="160" height="60" class="d-inline-block align-top mb-2" alt=""></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#guide">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#guide">ICO/STO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#balances">Check Balance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#swap">Swap ERC20 Tokens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#history">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">BitFinance</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5"><br><br>A cryptocurrency exchange bridge for Quorum.</h2>
+        <a href="#guide" class="btn btn-primary js-scroll-trigger">Get Started</a>
+      </div>
+    </div>
+  </header>
+  <!-- Guide Section -->
+  <section id="guide" class="projects-section bg-white" style="height: auto;">
+    <div class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-6">
+          <h4>How it Works</h4>
+          <p class="text-black-50 mb-0">Learn more about how the swap works here.</p>
+          <hr class="d-none d-lg-block mb-0 ml-0">
+        </div>
+      </div>
+      <div>
+        <p>The BitFinance Trading Bridge provides a solution for being able to exchange ERC-20 and ERC-721 tokens. It utilizes a bridge between two distinct blockchain tokens using the Quorum blockchain environment. </p>
+        <p> There will be two tokens on separate blockchains: an ERC-20 "cash" token, and an ERC-721 loan tokens. </p>
+        <p> In order for this conversion to take place, a "bridge" between these separate blockchain implementations is developed using these two distinct smart contract protocols. The solution makes use of escrow contracts once both users have entered their information in the forms below.</p>
+        <p> Trade assets will be stored in escrow contracts for both parties until the trade is fully completed. If either party cancels the transaction, the trade assets will be rightfully returned to the respective owner.</p>
+        <p> Click below to see an example. </p>
+        <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> View Example </a>
+        <div class="collapse" id="collapseExample" align="center">
+          <div class="card card-body">
+            <p> Let's start with two of our developers (Colin &amp; Mackenzie) who wish to exchange ERC-20 and ERC-721 tokens.<br> Mackenzie's ERC-721 token in this instance is his house that he wishes to sell.<br> We will be using the other 2 developers (Sadaf &amp; Nathan) to represent the escrow wallets. </p>
+            <img src="img/slide1.PNG" class="center" width="700px" height="400px">
+            <br><br>
+            <p> Colin, the buyer, will be initializing the swap by filling out the swap forms.<br> Note: This is just a rough mockup for now until the UI is completed. </p>
+            <img src="img/slide2.PNG" class="center" width="800px" height="400px">
+            <br><br>
+            <p> Mackenzie, the seller, will review the trade proposed by Colin.<br> He'll submit his end of the trade to the escrow wallet alongside Colin's once he approves of the trade. </p>
+            <img src="img/slide3.PNG" class="center" width="900px" height="400px">
+            <br><br>
+            <p> The trade assets are now forwarded to their respective escrow contracts until the trade is completed. </p>
+            <img src="img/slide4.PNG" class="center" width="500px" height="400px">
+            <br><br>
+            <p> Mackenzie and Colin both must approve the trade by releasing their trade assets.<br> Using our Java-implemented bridge, the escrow contracts can be traded. </p>
+            <img src="img/slide5.PNG" class="center" width="700px" height="400px">
+            <br><br>
+            <p> The bridge will forward the traded assets to their new owners unless the trade is cancelled. </p>
+            <img src="img/slide6.PNG" class="center" width="700px" height="400px">
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Balance Section -->
+  <section id="balances" class="projects-section bg-light" style="height: auto;">
+    <div class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-6">
+          <h4>Balances</h4>
+          <p class="text-black-50 mb-0">Check your Quorum balance here.</p>
+          <hr class="d-none d-lg-block mb-0 ml-0">
+        </div>
+      </div>
+      <div>
+        <div class="col-xl-9 col-lg-9 mx-auto">
+          <div class="text-center text-lg-left">
+            <form class="form-inline d-flex" onsubmit="return getBalance();">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="is20Balance" name="customRadioInline1" class="custom-control-input" checked="">
+                <label class="custom-control-label" for="is20Balance">ERC-20</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="is721Balance" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="is721Balance">ERC-721</label>
+              </div>
+              <input id="inputBalance" type="text" class="form-control-lg flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" onsubmit="return getBalance();" pattern="^[a-zA-Z0-9]*$" placeholder="Enter wallet address…" required="" maxlength="42">
+              <button type="button" onclick="return getBalance();" class="btn btn-primary mx-auto">Submit</button>
+            </form>
+            <div id="balance"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Swap Section -->
+  <section id="swap" class="projects-section bg-white" style="top: 500px;">
+    <div class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-6">
+          <h4>BitFinance Trading Bridge</h4>
+          <p class="text-black-50 mb-0">Swap your ERC20 tokens with other users here.<br> Pick a token below that you want to trade.</p>
+          <hr class="d-none d-lg-block mb-0 ml-0">
+        </div>
+      </div>
+      <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link btn btn-secondary" id="escrowsButton" data-toggle="pill" href="#escrows" role="tab" aria-controls="escrows" aria-selected="false">Generate Escrows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-secondary" id="reviewButton" data-toggle="pill" href="#review" role="tab" aria-controls="review" aria-selected="false">Review Transactions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-secondary" id="buyerButton" data-toggle="pill" href="#buyer" role="tab" aria-controls="buyer" aria-selected="false">Release ERC-20 Tokens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-secondary" id="sellerButton" data-toggle="pill" href="#seller" role="tab" aria-controls="seller" aria-selected="false">Release ERC-721 Tokens</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade" id="escrows" role="tabpanel" aria-labelledby="escrowsButton">
+          <form id="exchangeForm20" method="POST">
+            <div class="card card-body">
+              <div class="card card-body"> The transaction begins with the Buyer filling out the form and providing<br> - Addresses of both parties<br> - Addresses of their respective wallets<br> - Amount that is being transferred<br> Once completed, click submit to review the transaction. </div>
+              <br>
+              <div class="form-group">
+                <label for="receiverAddress">ERC-721 Sender Address</label>
+                <input required="" class="form-control" id="receiverAddress" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="receiverAddressWallet">ERC-721 Receiver Address</label>
+                <input required="" class="form-control" id="receiverAddressWallet" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="receiveToken">ERC-721 ID to send</label>
+                <input required="" class="form-control" id="receiveToken" placeholder="ERC-721 ID">
+              </div>
+              <hr class="d-none d-md-block mb-0 ml-0"><br>
+              <div class="form-group">
+                <label for="senderAddress">ERC-20 Sender Address</label>
+                <input required="" class="form-control" id="senderAddress" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="senderAddressWallet">ERC-20 Receiver Address</label>
+                <input required="" class="form-control" id="senderAddressWallet" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="sendToken">ERC-20 Amount</label>
+                <input required="" class="form-control" id="sendToken" placeholder="Desired amount in ERC-20">
+              </div>
+              <div class="form-group">
+                <label for="passphrase">Passphrase</label>
+                <input required="" class="form-control" id="passphrase" placeholder="Any unique string">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="reviewButton">
+          <form id="sellerReview" method="POST">
+            <div class="card card-body">
+              <div class="card card-body"> The Seller will be able to review the trade proposed by the Buyer here.<br> In this form, the Seller may submit their part of the transaction. </div>
+              <br>
+              <div class="form-group">
+                <label for="escrowERC20">ERC-20 Escrow Address</label>
+                <input required="" class="form-control" id="escrowERC20" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="escrowERC721">ERC-721 Escrow Address</label>
+                <input required="" class="form-control" id="escrowERC721" placeholder="Address (0x...)">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="review">Review</button>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="buyer" role="tabpanel" aria-labelledby="buyerButton">
+          <form id="buyerTransferFund" method="POST">
+            <div class="card card-body">
+              <div class="card card-body"> Both transactions are now held within Escrow wallets until both parties confirm to release the assets.<br><br> This form is for the Buyer to release assets from the Escrow wallet to the Seller.<br> The Buyer must fill out the address of the Escrow with the accompanied passphrase in order to release the funds. </div>
+              <br>
+              <div class="form-group">
+                <label for="buyerTransferERC20">ERC-20 Escrow Address</label>
+                <input required="" class="form-control" id="buyerTransferERC20" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="buyerPassphrase">Passphrase</label>
+                <input required="" class="form-control" id="buyerPassphrase" placeholder="Matching passphrase">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="submitBuyerFund">Release Buyer Tokens</button>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="seller" role="tabpanel" aria-labelledby="sellerButton">
+          <form id="sellerTransferFund" method="POST">
+            <div class="card card-body">
+              <div class="card card-body"> The Seller must also release their assets in order to complete the transaction.<br> The Seller must fill out the address of the Escrow with the accompanied passphrase in order to release the funds. </div>
+              <br>
+              <div class="form-group">
+                <label for="sellerTransferERC721">ERC-721 Escrow Address</label>
+                <input required="" class="form-control" id="sellerTransferERC721" placeholder="Address (0x...)">
+              </div>
+              <div class="form-group">
+                <label for="sellerPassphrase">Passphrase</label>
+                <input required="" class="form-control" id="sellerPassphrase" placeholder="Matching passphrase">
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="submitSellerFund">Release Seller Token</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="escrow" class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-6">
+          <br>
+        </div>
+      </div>
+    </div>
+    <div id="loadIcon" class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-6">
+          <i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- History Section -->
+  <section id="history" class="projects-section bg-light" style="height: auto;">
+    <div class="container">
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-6 col-lg-6">
+          <h4>History</h4>
+          <p class="text-black-50 mb-0"> View pending and previous transactions here. </p>
+          <hr class="d-none d-lg-block mb-0 ml-0">
+        </div>
+      </div>
+      <div>
+        <div class="col-xl-8 col-lg-8 mx-auto">
+          <div class="text-center text-lg-left">
+            <button type="button" onclick="return getHistory();" class="btn btn-primary mx-auto">Get History</button>
+            <div id="historyList"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container text-center">Blockchains<br>
+      <a class="btn btn-outline-warning" href="https://www.bitfinance.solutions" target="_blank">BitFinance</a> &amp; <a class="btn btn-outline-info" href="https://www.jpmorgan.com/global/Quorum" target="_blank">Quorum</a><br></div>
+  </footer>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center"> <i class="d-block fa mb-3 text-muted fa-3x"></i>
+          <img class="d-block img-fluid mx-auto" src="img/bull.png" width="50" height="15">
+          <h4 contenteditable="true">BitFinance</h4>
+          <p>Blockchain in Financial Services</p>
+          <p class="mb-0 text-primary"> <a href="mailto:info@bitfiannce.solutions">info@</a>bitfinance.solutions</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 d-flex align-items-center justify-content-center my-3"> <a href="#">
+            <i class="d-block fa fa-facebook-official text-muted fa-lg mr-2"></i>
+          </a> <a href="#">
+            <i class="d-block fa fa-instagram text-muted fa-lg mx-2"></i>
+          </a> <a href="https://www.facebook.com/blockchain.solutions/">
+            <i class="d-block fa fa-facebook text-muted fa-lg mx-2"></i>
+          </a> <a href="#">
+            <i class="d-block fa fa-linkedin text-muted fa-lg mx-2"></i>
+          </a> <a href="https://github.com/BitFinance-Co">
+            <i class="d-block fa fa-github text-muted fa-lg ml-2"></i>
+          </a> <a href="#">
+            <i class="d-block fa fa-twitter text-muted fa-lg ml-2"></i>
+          </a> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="text-secondary">© 2020 BitFinance. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin script -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="js/grayscale.min.js"></script>
+  <script src="js/formProcess.js"></script>
+</body>
+
+</html>
