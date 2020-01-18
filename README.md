@@ -3,7 +3,7 @@
 
 #### About
 
-The PowerChain Trading Bridge Frontend provides a solution for being able to exchange ERC-20 and ERC-721 tokens. . It utilizes a bridge between two distinct blockchain tokens using the cross-blockchain environment.
+The PowerChain Trading Bridge Frontend provides a solution for being able to exchange ERC-20 and ERC-721 tokens. . It utilizes a bridge between two distrinct blockchain tokens using the cross-blockchain environment.
 
 #### Functionality
 
