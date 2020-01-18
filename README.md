@@ -1,19 +1,16 @@
+# BitFinance Frontend
 
-# Nordic Energy - The Trading Bridge Frontend Repository
+## About
 
-#### About
+Frontend repository for the BitFinance Trading Bridge for Quorum.
 
-The PowerChain Trading Bridge Frontend provides a solution for being able to exchange ERC-20 and ERC-721 tokens. . It utilizes a bridge between two distrinct blockchain tokens using the cross-blockchain environment.
-
-#### Functionality
-
+## Functionality
 Getting balances of ERC-20 and ERC-721 wallets.
 
 Transferring funds between two different ERC-20 and ERC-721 blockchains.
 
 
-#### Copyright and License
-
-Based off BitFinance [Start Bootstrap](https://startbootstrap.com)
+## Copyright and License
+Based off theme [Start Bootstrap](https://startbootstrap.com)
 Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
 Based on the [Bootstrap](http://getbootstrap.com/) framework.
