@@ -1,5 +1,5 @@
 // Set server instance here as 'x.ngrok.io';
-var server = 'https://4237612e.ngrok.io';
+var server = 'https://etherscan.io';
 
 $(function() {
   $('#sellerReview').on('submit', function(e) {
