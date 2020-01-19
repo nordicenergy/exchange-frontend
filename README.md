@@ -1,4 +1,6 @@
 
+<img src="https://github.com/nordicenergy/trading-bridge-frontend/img/nordicenergy-exchange-Logo.png" width="150px">
+
 # Trading Bridge Frontend
 
 #### About
