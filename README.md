@@ -1,5 +1,5 @@
 
-<img src="https://github.com/nordicenergy/trading-bridge-frontend/img/nordicenergy-exchange-Logo.png" width="150px">
+<img src="https://github.com/nordicenergy/trading-bridge-frontend/blob/1.0.0/img/nordicenergy-exchange-logo.png" width="150px">
 
 # Trading Bridge Frontend
 
