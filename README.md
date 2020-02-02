@@ -1,4 +1,7 @@
-# Trading Bridge Frontend
+
+<img src="https://github.com/nordicenergy/trading-bridge-frontend/blob/1.0.0/img/nordicenergy-exchange-logo.png" width="150px">
+
+# The Trading Bridge Frontend
 
 #### About
 The Nordic Energy´s PowerChain Trading Bridge provides a solution for being able to exchange ERC-20 and ERC-721 tokens. It utilizes a bridge between two distinct blockchain tokens using the cross-blockchain environment.
@@ -9,6 +12,14 @@ In order for this conversion to take place, a "bridge" between these separate bl
 - Getting balances of ERC-20 and ERC-721 wallets.
 
 - Transferring funds between two different ERC-20 and ERC-721 blockchains.
+
+#### TODO
+
+- Smart Contracts
+- API
+- Logo desing and some graphical upgrades
+- Blockchain Explorer
+- Fix more mobile frienly UI/UX
 
 #### Copyright and License
 Based off theme [Start Bootstrap](https://startbootstrap.com)
