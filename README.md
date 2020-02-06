@@ -25,3 +25,18 @@ In order for this conversion to take place, a "bridge" between these separate bl
 Based off theme [Start Bootstrap](https://startbootstrap.com)
 Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
 Based on the [Bootstrap](http://getbootstrap.com/) framework.
+
+## ⭐️ Show your support
+Please ⭐️ this repository if this project helped you!
+
+<a href="https://www.patreon.com/sandoche">[![patreon.png](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/sandoche)</a>
+
+## Donation
+If you like this project, feel free to donate:
+* Bitcoin:  14GyqCEZXyeythb6B6Vu5DiBCMszFrBsp1
+* Litecoin: LSi7smGjLwAmihFLEtV7Lit9Mmbsds9Tin
+* Ripple: rE5DbPTbtYT6tKqfXMD8352tTpdNvFydxb
+* Tron: TFSx6BBFNdxXoJJrTEWGEekTmb1AwNEEca
+* Ethereum: 0x0A6f46F29e047EdcFdf7BF67fD1DcC418100beea
+* DAI: 0x3FcDF18672dF7079E3146C87502003fb7dB4fa38
+* Paypal: paypal.me/nordicenergy
