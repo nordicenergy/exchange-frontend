@@ -26,11 +26,11 @@ Based off theme [Start Bootstrap](https://startbootstrap.com)
 Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
 Based on the [Bootstrap](http://getbootstrap.com/) framework.
 
-## ⭐️ Show your support
+### ⭐️ Show your support
 Please ⭐️ this repository if this project helped you!
 
 
-## Donation
+#### Donation
 If you like this project, feel free to donate:
 * Bitcoin:  14GyqCEZXyeythb6B6Vu5DiBCMszFrBsp1
 * Litecoin: LSi7smGjLwAmihFLEtV7Lit9Mmbsds9Tin
