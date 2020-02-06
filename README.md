@@ -26,9 +26,9 @@ Based off theme [Start Bootstrap](https://startbootstrap.com)
 Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
 Based on the [Bootstrap](http://getbootstrap.com/) framework.
 
+
 ### ⭐️ Show your support
 Please ⭐️ this repository if this project helped you!
-
 
 #### Donation
 If you like this project, feel free to donate:
