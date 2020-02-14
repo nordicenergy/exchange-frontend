@@ -4,7 +4,7 @@
 # Trading Bridge Frontend
 
 #### About
-The Nordic Energy´s PowerChain Trading Bridge provides a solution for being able to exchange ERC-20 and ERC-721 tokens. It utilizes a bridge between two distinct blockchain tokens using the cross-blockchain environment.
+The Nordic Energy´s Trading Bridge provides a solution for being able to exchange ERC-20 and ERC-721 tokens. It utilizes a bridge between two distinct blockchain tokens using the cross-blockchain environment.
 
 In order for this conversion to take place, a "bridge" between these separate blockchain implementations is developed using these two distinct smart contract protocols. The solution makes use of escrow contracts once both users have entered their information in the forms below.
 
